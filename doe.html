@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doe_style.css">
+    <title>Doação</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="imgs/logo_site.png" alt="LOGO">
+            <nav id="nav-cabecalho">
+                <button id="btn-mobile"><span id="hamburger"></span></button>
+                <ul id="ul-cabecalho">
+                    <li><a class="a-cabecalho" href="index.html">Home</a></li>
+                    <li><a class="btn" href="login.html">Entrar</a></li>
+                    <li><a class="btn" href="registro_refugiada.html">Registrar-se</a></li>
+                </ul>
+            </nav>     
+        </header>
+        <main>
+            <div id="tamanho">
+                <div class="flex-box">
+                    <form>
+                        <h2>Doação</h2>
+                        <input type="text" name="valor" placeholder="Valor da Doação*"><br>
+                        <input type="checkbox" id="unica"><label class="text-label" for="unica">Única</label>
+                        <input type="checkbox" id="mensal"><label class="text-label" for="mensal">Mensal</label>
+                        <h2>Dados pessoais</h2>
+                        <input type="text" name="nome" placeholder="Nome completo*"><br>
+                        <input type="text" name="email" placeholder="Email*"><br>  
+                        <input type="text" name="celular" placeholder="Celular*">
+                        <h2>Informações de pagamento</h2>
+                        <input type="text" name="cartão" placeholder="Número do cartão*"><br>
+                        <input type="text" name="nome2" placeholder="Titular*"><br>
+                        <input type="text" name="cpf" placeholder="CPF*"> 
+                        <input type="text" name="data" placeholder="Validade*"><br>
+                        <input type="text" name="cvv" placeholder="CVV"><br>  
+                        <input type="submit" name="confirmar" value="Confirmar"><br><br>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <div id="footer-div1">
+                    <a href="https://www.facebook.com/profile.php?id=100081785598731">
+                    <img class="icones-margem" src="icones/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/safeshelteroficial/">
+                    <img class="icones-margem" src="icones/instagram.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/channel/UC_HK3kjX-ut9BiZ-QF2Hlqg/featured">
+                    <img src="icones/youtube.png" alt="youtube"></a>
+                </div>
+                <div class="text-center">
+                    <p> Telefone: (99)99999-9999  Email: SafeShelterOficial@gmail.com</p>
+                    <p>© 2022 Safe Shelter, inc. Todos direitos reservados</p>  
+                </div>
+            </footer>
+        </main>
+    </div>
+<script src="doe_script.js"></script>
+</body>
+</html>
